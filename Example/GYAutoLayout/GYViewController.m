@@ -7,6 +7,7 @@
 //
 
 #import "GYViewController.h"
+#import <GYLayout.h>
 
 @interface GYViewController ()
 
@@ -17,7 +18,22 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+    
+    
+    UIView *view = [[UIView alloc]init];
+    view.frame = GY_CGRectMake(0, 64, 80, 200);
+    view.backgroundColor = [UIColor redColor];
+    [self.view addSubview:view];
+    
+    
+    NSLog(@" ------- %@",NSStringFromCGRect(view.frame));
+}
+
+- (void)viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning

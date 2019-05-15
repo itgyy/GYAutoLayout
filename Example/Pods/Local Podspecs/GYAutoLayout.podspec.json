@@ -1,0 +1,22 @@
+{
+  "name": "GYAutoLayout",
+  "version": "0.1.0",
+  "summary": "A short description of GYAutoLayout.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/guyaoyao/GYAutoLayout",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "guyaoyao": "851511476@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/guyaoyao/GYAutoLayout.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "GYAutoLayout/Classes/**/*"
+}

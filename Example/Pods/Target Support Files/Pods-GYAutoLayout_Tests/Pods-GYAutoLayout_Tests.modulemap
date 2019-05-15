@@ -1,0 +1,6 @@
+framework module Pods_GYAutoLayout_Tests {
+  umbrella header "Pods-GYAutoLayout_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

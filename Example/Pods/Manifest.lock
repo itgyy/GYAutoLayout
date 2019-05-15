@@ -1,0 +1,16 @@
+PODS:
+  - GYAutoLayout (0.1.0)
+
+DEPENDENCIES:
+  - GYAutoLayout (from `../`)
+
+EXTERNAL SOURCES:
+  GYAutoLayout:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GYAutoLayout: 31d99fff9f0b097992255741a58570ab469eb12b
+
+PODFILE CHECKSUM: 07280c36dc5bd67f09c75c020aeccd1bad5f0509
+
+COCOAPODS: 1.6.1

@@ -7,12 +7,15 @@
 //
 
 #import "GYAppDelegate.h"
+#import <GYLayout.h>
 
 @implementation GYAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [[GYLayoutConfig share] setPhoneScreen:GYLayoutPhoneScreenIphone6];
+    
     return YES;
 }
 
